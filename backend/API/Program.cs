@@ -1,7 +1,10 @@
+using Application;
+
 var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddControllers();
+builder.Services.AddApplicationServices();
 
 builder.Services.AddOpenApi();
 
